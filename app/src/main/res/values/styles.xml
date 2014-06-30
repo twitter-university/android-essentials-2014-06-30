@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="yambaText">
+        <item name="android:textColor">@color/twitter_grey</item>
+    </style>
+
+
+    <style name="yambaText.label">
+        <item name="android:textSize">64sp</item>
+        <item name="android:textStyle">bold</item>
+     </style>
+
+    <style name="yambaText.label.button">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+</resources>

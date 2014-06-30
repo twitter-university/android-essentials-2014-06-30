@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/larry"
+    android:orientation="vertical"
+    tools:context=".TweetActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/tweet_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tweet_label"
+        style="@style/yambaText.label"/>
+
+    <TextView
+        android:id="@+id/tweet_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/tweet_count"
+        android:textColor="@color/green"
+        />
+
+    <EditText
+        android:id="@+id/tweet_tweet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="left|top"
+        android:hint="@string/tweet_hint"
+        android:padding="@dimen/text_padding"
+        android:background="@color/fog"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tweet_submit"
+        android:layout_gravity="center_horizontal"
+        style="@style/yambaText.label.button"/>
+        />
+
+</LinearLayout>

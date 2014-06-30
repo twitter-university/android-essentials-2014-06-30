@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">Yamba</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Tweet Activity -->
+    <string name="tweet_label">Tweet</string>
+    <string name="tweet_count">140</string>
+    <string name="tweet_hint">Whazzup?</string>
+    <string name="tweet_submit">Submit</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="twitter_black">#292f33</color>
+    <color name="twitter_grey">#66757f</color>
+    <color name="fog">#88e1e8ed</color>
+
+    <color name="green">#118811</color>
+</resources>
