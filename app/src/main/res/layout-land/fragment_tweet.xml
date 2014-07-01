@@ -37,11 +37,13 @@
             />
 
         <Button
+            android:id="@+id/tweet_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tweet_submit"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
+            android:enabled="false"
             style="@style/yambaText.label.button"
             />
     </RelativeLayout>
