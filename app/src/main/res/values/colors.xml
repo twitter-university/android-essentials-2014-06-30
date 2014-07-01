@@ -5,4 +5,6 @@
     <color name="fog">#88e1e8ed</color>
 
     <color name="green">#118811</color>
+    <color name="yellow">#ff9900</color>
+    <color name="red">#cc0000</color>
 </resources>
