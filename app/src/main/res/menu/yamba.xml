@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TweetActivity" >
+
+    <item android:id="@+id/action_tweet"
+          android:title="@string/action_tweet"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/action_timeline"
+          android:title="@string/action_timeline"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/action_about"
+          android:title="@string/action_about"
+          android:showAsAction="never" />
+</menu>
