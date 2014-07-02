@@ -123,7 +123,7 @@ public class TweetFragment extends Fragment {
         String tweet = tweetView.getText().toString();
         if (!checkTweetLen(tweet.length())) { return; }
 
-        YambaService.post(getActivity(), tweet);
+        YambaServiceHelper.post(getActivity(), tweet);
 
         tweetView.setText("");
     }
